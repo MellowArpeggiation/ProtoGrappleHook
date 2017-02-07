@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+	<player name="mainplayer">
+		<spawnposition>
+			<x>80</x>
+			<y>300</y>
+		</spawnposition>
+		<health>10</health>
+	</player>
+	<entities>
+		<circleprop>
+			<x>400</x>
+			<y>0</y>
+			<size>20</size>
+			<static>false</static>
+		</circleprop>
+		<boxprop>
+			<x>0</x>
+			<y>600</y>
+			<sizex>400</sizex>
+			<sizey>300</sizey>
+			<rotation>0</rotation>
+			<static>true</static>
+		</boxprop>
+		<boxprop>
+			<x>800</x>
+			<y>600</y>
+			<sizex>400</sizex>
+			<sizey>300</sizey>
+			<rotation>0</rotation>
+			<static>true</static>
+		</boxprop>
+		<camera>
+			<followobject>mainplayer</followobject>
+			<isactive>true</isactive>
+		</camera>
+	</entities>
+	<scripts>
+		<!--To support Javascripting!-->
+	</scripts>
+</level>

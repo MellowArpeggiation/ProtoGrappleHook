@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+	<player name="mainplayer">
+		<spawnposition>
+			<x>80</x>
+			<y>300</y>
+		</spawnposition>
+		<health>10</health>
+	</player>
+	<entities>
+		<circleprop>
+			<x>400</x>
+			<y>200</y>
+			<size>50</size>
+			<static>true</static>
+		</circleprop>
+		<boxprop>
+			<x>-300</x>
+			<y>600</y>
+			<sizex>2500</sizex>
+			<sizey>300</sizey>
+			<rotation>0</rotation>
+			<static>true</static>
+		</boxprop>
+		<boxprop>
+			<x>-1500</x>
+			<y>150</y>
+			<sizex>100</sizex>
+			<sizey>700</sizey>
+			<rotation>0</rotation>
+			<static>true</static>
+		</boxprop>
+		<boxprop>
+			<x>900</x>
+			<y>150</y>
+			<sizex>100</sizex>
+			<sizey>700</sizey>
+			<rotation>0</rotation>
+			<static>true</static>
+		</boxprop>
+		<landmine>
+			<x>-280</x>
+			<y>400</y>
+			<rotation>0</rotation>
+			<explosiveforce>500000</explosiveforce>
+		</landmine>
+		<landmine>
+			<x>100</x>
+			<y>400</y>
+			<rotation>0</rotation>
+			<explosiveforce>500000</explosiveforce>
+		</landmine>
+		<landmine>
+			<x>400</x>
+			<y>400</y>
+			<rotation>0</rotation>
+			<explosiveforce>500000</explosiveforce>
+		</landmine>
+		<visiblestring>
+			<x>30</x>
+			<y>30</y>
+			<text>You can drag landmines with your grapple!</text>
+		</visiblestring>
+		<camera>
+			<followobject>mainplayer</followobject>
+			<isactive>true</isactive>
+		</camera>
+	</entities>
+	<scripts>
+		<!--To support Javascripting!-->
+	</scripts>
+</level>
